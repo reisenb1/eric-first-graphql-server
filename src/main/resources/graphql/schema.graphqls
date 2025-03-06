@@ -1,0 +1,12 @@
+type query {
+    parkById: String
+    parks: [Park]
+}
+
+type Park {
+    parkId: ID
+    parkName: String
+    dateEstablished: String
+    area: String
+    hasCamping: Boolean
+}
