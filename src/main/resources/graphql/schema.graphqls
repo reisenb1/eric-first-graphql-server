@@ -1,4 +1,4 @@
-type query {
+type Query {
     parkById: String
     parks: [Park]
 }
